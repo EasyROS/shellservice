@@ -72,6 +72,8 @@ public:
 
     iterator insert(iterator &position, const string &x);
 
+    iterator insert_tree(iterator &position, tree *tr);
+
     node *root;
 private:
     void destroy(node *some);

@@ -12,17 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c460c3-ad12-4202-a2c8-9d8b7e293236" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ShellService.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ShellService.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sys_bind/sys_bind.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sys_bind/sys_bind.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sys_bind/sys_bind.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/sys_bind/sys_bind.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sys_tree/sys_tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sys_tree/sys_tree.cpp" afterDir="false" />
@@ -52,7 +41,7 @@
         <counts>
           <entry key="cmake" value="2" />
           <entry key="cpp" value="2" />
-          <entry key="hpp" value="3" />
+          <entry key="hpp" value="4" />
           <entry key="sys_bind_test (disassembly)" value="4" />
           <entry key="txt" value="2" />
         </counts>
@@ -61,21 +50,21 @@
         <counts>
           <entry key="CMakeLists.txt" value="4" />
           <entry key="Disassembly" value="4" />
-          <entry key="ObjectiveC" value="5" />
+          <entry key="ObjectiveC" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cmake" value="8" />
-          <entry key="cpp" value="968" />
-          <entry key="hpp" value="454" />
+          <entry key="cpp" value="1158" />
+          <entry key="hpp" value="594" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="29" />
-          <entry key="ObjectiveC" value="1422" />
+          <entry key="ObjectiveC" value="1752" />
         </counts>
       </usages-collector>
     </session>
@@ -94,11 +83,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sys_tree/sys_tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="309">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#1474#2068#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sys_tree/sys_tree.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="495">
+              <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -116,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sys_bind/sys_bind.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -125,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sys_bind/sys_bind.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -141,8 +129,8 @@
       <list>
         <option value="$PROJECT_DIR$/sys_bind/source.cmake" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/sys_tree/sys_tree.hpp" />
         <option value="$PROJECT_DIR$/sys_tree/sys_tree.cpp" />
+        <option value="$PROJECT_DIR$/sys_tree/sys_tree.hpp" />
         <option value="$PROJECT_DIR$/sys_bind/sys_bind.hpp" />
         <option value="$PROJECT_DIR$/sys_bind/sys_bind.cpp" />
       </list>
@@ -242,12 +230,12 @@
       <workItem from="1537948911064" duration="34000" />
       <workItem from="1538475988938" duration="206000" />
       <workItem from="1539828086324" duration="5582000" />
-      <workItem from="1539866721425" duration="3536000" />
+      <workItem from="1539866721425" duration="5990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9358000" />
+    <option name="totallyTimeSpent" value="11812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -299,35 +287,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys_tree/sys_tree.cpp">
+    <entry file="file://$PROJECT_DIR$/sys_tree/sys_tree.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#1474#2068#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sys_tree/sys_tree.hpp">
+    <entry file="file://$PROJECT_DIR$/sys_tree/sys_tree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="309">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sys_bind/sys_bind.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="315">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sys_bind/sys_bind.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
         </state>
       </provider>
     </entry>

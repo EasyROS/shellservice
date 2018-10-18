@@ -64,6 +64,13 @@ tree::iterator tree::insert(iterator &position, const string &x) {
     return iterator(tmp);
 }
 
+tree::iterator tree::insert_tree(iterator &position, tree *tr) {
+
+    position.get()->children.push_back(tr->root);
+    tr->root->parent = position.get();
+    return iterator(tr->root);
+}
+
 #ifdef TestRun
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wstring-compare"
