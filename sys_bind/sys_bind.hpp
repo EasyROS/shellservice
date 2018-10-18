@@ -1,14 +1,28 @@
-//
-// Created by dean on 18-10-2.
-//
+#include "../sys_tree/sys_tree.hpp"
 
-#ifndef SHELLSERVICE_SYS_BIND_HPP
-#define SHELLSERVICE_SYS_BIND_HPP
+class bind {
+public:
+    bind();
+
+    ~bind();
+
+    bind(string name, tree *tr, tree::iterator it);
 
 
-class sys_bind {
+
+    void ntr(){
+        node *root = new node("root");
+        tree *tr = new tree(root);
+        tree::iterator it(root);
+
+        this->it = it;
+        this->n = root;
+        this->tr = tr;
+    }
+
+    tree::iterator it;
+    tree *tr;
+    node *n;
+private:
 
 };
-
-
-#endif //SHELLSERVICE_SYS_BIND_HPP

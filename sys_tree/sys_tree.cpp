@@ -5,9 +5,11 @@
 
 using namespace std;
 
-node::node() : parent(0) {}
+node::node() : parent(0), content(0) {}
 
 node::node(string x) : parent(0), name(x) {}
+
+node::node(string x, vector<Content> c) : parent(0), name(x), content(c) {}
 
 //string node::get_name() {}
 //

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dean/App/clion-2018.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/dean/App/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/dean/App/clion-2018.2.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/dean/App/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,27 +56,27 @@ CMAKE_BINARY_DIR = /home/dean/dean.test/workspace/src/default/shellservice/cmake
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dean/App/clion-2018.2.1/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dean/App/clion-2018.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dean/App/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/dean/App/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,14 +110,88 @@ depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named sys_bind_test
+
+# Build rule for target.
+sys_bind_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sys_bind_test
+.PHONY : sys_bind_test
+
+# fast build rule for target.
+sys_bind_test/fast:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/build
+.PHONY : sys_bind_test/fast
+
+sys_bind/sys_bind.o: sys_bind/sys_bind.cpp.o
+
+.PHONY : sys_bind/sys_bind.o
+
+# target to build an object file
+sys_bind/sys_bind.cpp.o:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/sys_bind/sys_bind.cpp.o
+.PHONY : sys_bind/sys_bind.cpp.o
+
+sys_bind/sys_bind.i: sys_bind/sys_bind.cpp.i
+
+.PHONY : sys_bind/sys_bind.i
+
+# target to preprocess a source file
+sys_bind/sys_bind.cpp.i:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/sys_bind/sys_bind.cpp.i
+.PHONY : sys_bind/sys_bind.cpp.i
+
+sys_bind/sys_bind.s: sys_bind/sys_bind.cpp.s
+
+.PHONY : sys_bind/sys_bind.s
+
+# target to generate assembly for a file
+sys_bind/sys_bind.cpp.s:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/sys_bind/sys_bind.cpp.s
+.PHONY : sys_bind/sys_bind.cpp.s
+
+sys_tree/sys_tree.o: sys_tree/sys_tree.cpp.o
+
+.PHONY : sys_tree/sys_tree.o
+
+# target to build an object file
+sys_tree/sys_tree.cpp.o:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/sys_tree/sys_tree.cpp.o
+.PHONY : sys_tree/sys_tree.cpp.o
+
+sys_tree/sys_tree.i: sys_tree/sys_tree.cpp.i
+
+.PHONY : sys_tree/sys_tree.i
+
+# target to preprocess a source file
+sys_tree/sys_tree.cpp.i:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/sys_tree/sys_tree.cpp.i
+.PHONY : sys_tree/sys_tree.cpp.i
+
+sys_tree/sys_tree.s: sys_tree/sys_tree.cpp.s
+
+.PHONY : sys_tree/sys_tree.s
+
+# target to generate assembly for a file
+sys_tree/sys_tree.cpp.s:
+	$(MAKE) -f CMakeFiles/sys_bind_test.dir/build.make CMakeFiles/sys_bind_test.dir/sys_tree/sys_tree.cpp.s
+.PHONY : sys_tree/sys_tree.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... sys_bind_test"
+	@echo "... sys_bind/sys_bind.o"
+	@echo "... sys_bind/sys_bind.i"
+	@echo "... sys_bind/sys_bind.s"
+	@echo "... sys_tree/sys_tree.o"
+	@echo "... sys_tree/sys_tree.i"
+	@echo "... sys_tree/sys_tree.s"
 .PHONY : help
 
 

@@ -1,7 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <string>
+
 using namespace std;
+
+struct Content {
+    string name;
+    string info;
+    double value;
+    bool exec;
+};
+
 
 class node {
 public:
@@ -9,8 +18,11 @@ public:
 
     node(string x);
 
+    node(string x, vector<Content> c);
+
     ~node();
 
+    vector<Content> content;
     string name;
     node *parent;
     vector<node *> children;

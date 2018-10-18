@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dean/dean.test/workspace/src/default/shellservice/sys_bind/sys_bind.cpp
+sys_bind.hpp
+/home/dean/dean.test/workspace/src/default/shellservice/sys_bind/sys_bind.hpp
+
+/home/dean/dean.test/workspace/src/default/shellservice/sys_bind/sys_bind.hpp
+../sys_tree/sys_tree.hpp
+/home/dean/dean.test/workspace/src/default/shellservice/sys_tree/sys_tree.hpp
+
+/home/dean/dean.test/workspace/src/default/shellservice/sys_tree/sys_tree.hpp
+iostream
+-
+vector
+-
+string
+-
+

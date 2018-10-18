@@ -15,6 +15,7 @@ option(Test "This is a option for Test, test the package" OFF)
 
 set(SOURCES_DIRECTORIES
 	sys_tree
+    sys_bind
 )
 
 foreach (DIRECTORY ${SOURCES_DIRECTORIES})
@@ -31,6 +32,11 @@ if(${Test} STREQUAL "ON")
     ADD_DEFINITIONS(-DTestRun)
     add_executable(sys_tree_test ${ALL_SOURCES})
 endif()
+
+#if(${Test} STREQUAL "ON")
+#ADD_DEFINITIONS(-DTestRun)
+add_executable(sys_bind_test ${ALL_SOURCES})
+#endif()
 
 if(${Test} STREQUAL "ON")
 add_executable (Test test/main.cpp)
