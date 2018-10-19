@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/sys_tree_test.dir/sys_tree/sys_tree.cpp.o CMakeFiles/sys_tree_test.dir/sys_bind/sys_bind.cpp.o  -o sys_tree_test 

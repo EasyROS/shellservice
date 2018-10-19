@@ -1,3 +1,0 @@
-/home/dean/dean.test/workspace/src/default/shellservice/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dean/dean.test/workspace/src/default/shellservice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dean/dean.test/workspace/src/default/shellservice/cmake-build-debug/CMakeFiles/sys_bind_test.dir

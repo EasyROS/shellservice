@@ -9,7 +9,7 @@ bind::bind(string name, tree *tr, tree::iterator iterator) {
 }
 
 
-
+#ifdef BindTestRun
 int main() {
     bind *root_bind = new bind;
     root_bind->root_tree("root");
@@ -19,8 +19,9 @@ int main() {
     bind *root = new bind;
     root->root_tree("tt");
     root_bind->bind_tree(root->tr, root_bind->it);
-    cout << "2 " << root_bind->n->children[0]->name << root_bind->n->children[1]->name << root->n->name << endl;
+    cout << "2 " << root_bind->n->children[0]->name << root_bind->n->children[1]->name << endl;
     new bind("test1",root_bind->tr ,b->it);
     cout << "3 " << b->n->children[0]->name << endl;
     return 0;
 }
+#endif

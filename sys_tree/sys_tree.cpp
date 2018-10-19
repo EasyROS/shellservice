@@ -71,7 +71,7 @@ tree::iterator tree::insert_tree(iterator &position, tree *tr) {
     return iterator(tr->root);
 }
 
-#ifdef TestRun
+#ifdef TreeTestRun
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wstring-compare"
 

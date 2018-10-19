@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
 project(ShellService)
 
-#find_package(catkin REQUIRED COMPONENTS
-#
-#)
-#
-#catkin_package(
-#        CATKIN_DEPENDS
-#)
+find_package(catkin REQUIRED COMPONENTS
+
+)
+
+catkin_package(
+        CATKIN_DEPENDS
+)
 ### include TL package
 include_directories(${catkin_INCLUDE_DIRS})
 
@@ -29,14 +29,9 @@ foreach (DIRECTORY ${SOURCES_DIRECTORIES})
 endforeach (DIRECTORY)
 
 if(${Test} STREQUAL "ON")
-    ADD_DEFINITIONS(-DTestRun)
-    add_executable(sys_tree_test ${ALL_SOURCES})
+    ADD_DEFINITIONS(-DBindTestRun)
+    add_executable(sys_bind_test ${ALL_SOURCES})
 endif()
-
-#if(${Test} STREQUAL "ON")
-#ADD_DEFINITIONS(-DTestRun)
-add_executable(sys_bind_test ${ALL_SOURCES})
-#endif()
 
 if(${Test} STREQUAL "ON")
 add_executable (Test test/main.cpp)
