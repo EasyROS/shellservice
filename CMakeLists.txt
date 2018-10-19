@@ -29,13 +29,13 @@ foreach (DIRECTORY ${SOURCES_DIRECTORIES})
 endforeach (DIRECTORY)
 
 if(${Test} STREQUAL "ON")
-    ADD_DEFINITIONS(-DBindTestRun)
-    add_executable(sys_bind_test ${ALL_SOURCES})
+    #ADD_DEFINITIONS(-DBindTestRun)
+    #add_executable(sys_bind_test ${ALL_SOURCES})
 endif()
 
-if(${Test} STREQUAL "ON")
-add_executable (Test test/main.cpp)
-endif()
+#if(${Test} STREQUAL "ON")
+add_executable (Test test/main.cpp ${ALL_SOURCES})
+#endif()
 
 #target_link_libraries(Test ${catkin_LIBRARIES})
 
