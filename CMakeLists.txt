@@ -7,6 +7,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(
         CATKIN_DEPENDS
+        INCLUDE_DIRS interface
+        LIBRARIES ShellService
 )
 ### include TL package
 include_directories(${catkin_INCLUDE_DIRS})
@@ -36,6 +38,9 @@ endif()
 #if(${Test} STREQUAL "ON")
 add_executable (Test test/main.cpp ${ALL_SOURCES})
 #endif()
+
+add_library (ShellService SHARED ${ALL_SOURCES})
+target_link_libraries(ShellService ${catkin_LIBRARIES})
 
 #target_link_libraries(Test ${catkin_LIBRARIES})
 
